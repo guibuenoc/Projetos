@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Guilherme Bueno - Cybersecurity / ADS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-title">GUILHERME BUENO</span>
+        <span class="logo-subtitle">CYBERSECURITY / ADS</span>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#experiencia">Experiência</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="menu-right">• • •</div>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-photo-wrapper">
+          <div class="hero-photo-border"></div>
+          <div class="hero-photo">
+            <img src="assets/foto_perfil.jpeg">
+          </div>
+        </div>
+
+        <div class="hero-content">
+          <div class="hero-label">Sobre mim</div>
+          <h1 class="hero-title">
+            Transformando curiosidade em <span>segurança digital.</span>
+          </h1>
+          <p class="hero-text">
+            Sou uma pessoa muito interessada na área da Tecnologia, principalmente em CyberSecurity.
+            Atualmente estou cursando ADS no Senai com estágio na empresa 2RP Net. Meu objetivo principal é
+            aprimorar meus conhecimentos diariamente para trabalhar internacionalmente com o que eu amo.
+          </p>
+
+          <div class="hero-tags">
+            <div class="tag tag-blue">ADS</div>
+            <div class="tag">Senai</div>
+            <div class="tag">Estagiário 2RP Net</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencia" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label">Jornada</div>
+          <h2 class="section-title">Experiência e Objetivos</h2>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <div class="card-icon">🎓</div>
+            <div class="card-title">Experiência Acadêmica</div>
+            <p class="card-text">
+              Iniciei meu ensino médio técnico no Senac, desenvolvendo interesse pelas áreas de Segurança da Informação,
+              Redes de Computadores e Programação. Atualmente curso Análise e Desenvolvimento de Sistemas, com enfoque
+              em fundamentos de programação e práticas de ADS.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">🎯</div>
+            <div class="card-title">Objetivos Profissionais</div>
+            <p class="card-text">
+              Foco total em CyberSecurity, com interesse em áreas como Pentest, Blue Team e Ethical Hacking.
+              Busco me desenvolver em ambientes corporativos, contribuir com equipes multidisciplinares e
+              alcançar oportunidades internacionais na área de Segurança da Informação.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">📚</div>
+            <div class="card-title">Cursos e Certificações</div>
+            <p class="card-text">
+              Certificações em redes, HTML/CSS/JS e cursos voltados a temas de TI e Hacking.
+              Busco constantemente cursos e formações complementares para aprofundar meu conhecimento
+              em Segurança, Redes e Análise de Sistemas, unindo teoria e prática no meu dia a dia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section skills">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label">Stack técnica</div>
+          <h2 class="section-title">Habilidades e Competências</h2>
+        </div>
+
+        <div class="skills-chips">
+          <div class="chip">
+            <span class="chip-main">HTML</span>
+            <span class="chip-sub">Estrutura</span>
+          </div>
+
+          <div class="chip">
+            <span class="chip-blue">CSS</span>
+            <span class="chip-sub">Design</span>
+          </div>
+
+          <div class="chip">
+            <span class="chip-yellow">JS</span>
+            <span class="chip-sub">Dinâmica</span>
+          </div>
+
+          <div class="chip">
+            <span class="chip-purple">SQL</span>
+            <span class="chip-sub">Banco</span>
+          </div>
+
+          <div class="chip">
+            <span class="chip-green">Redes</span>
+            <span class="chip-sub">Infra</span>
+          </div>
+
+          <div class="chip">
+            <span class="chip-red">Cyber</span>
+            <span class="chip-sub">Security</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label">Portfólio</div>
+          <h2 class="section-title">Projetos Recentes</h2>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <div class="card-icon">💻</div>
+            <div class="card-title">Projeto Anual do Tecnico</div>
+            <p class="card-text">
+              Desenvolvi tres trabalhos, um por ano do ensino medio tecnico, onde pude melhorar meus conhecimentos em frontend e meu trabalho em equipe. Alem de ter feito a parte de marketing tambem, entao aprendi diversas habilidades como HTML, CSS, JS, e hanilidades de design como figma, edicao de video e de imagens.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">🛡️</div>
+            <div class="card-title">Projeto de Infraestrutura e Segurança</div>
+            <p class="card-text">
+              Ja na primeira semana de trabalho na 2RP NET, tive a oportunidade de participar do Hackathon da empresa, fazendo parte da equipe de seguranca na transferencia de dados entre os sites, onde conseguimos desenvolver a habilidade de trabalho em equipe, e a habilidade de resolver problemas, alem de ter aprendido muito sobre seguranca da informacao.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="contact-section">
+      <div class="container">
+        <div class="contact-card">
+          <div class="contact-left">
+            <div class="contact-title">Contatos</div>
+            <p class="contact-text">
+              Estou sempre aberto a novas conexões, projetos e desafios na área de segurança e tecnologia.
+            </p>
+            <ul class="contact-info">
+              <li><span>✉</span> guibuenocae@gmail.com</li>
+              <li><span>🐦</span> @gui.buenoc</li>
+              <li><span>💻</span> github.com/guibuenoc</li>
+            </ul>
+          </div>
+          <div class="contact-right">
+            <button class="btn-primary">Enviar Mensagem</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>© 2026 Guilherme Bueno Caetano. Todos os direitos reservados.</div>
+      <div class="footer-links">
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6fb;
+  color: #111827;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+header {
+  background-color: #f4f6fb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.logo-title {
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-size: 14px;
+}
+
+.logo-subtitle {
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 2px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  font-size: 14px;
+}
+
+nav a {
+  color: #4b5563;
+}
+
+nav a:hover {
+  color: #111827;
+}
+
+.menu-right {
+  font-size: 20px;
+  color: #6b7280;
+  cursor: pointer;
+}
+
+.hero {
+  padding: 40px 0 32px;
+}
+
+.hero-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  align-items: center;
+}
+
+.hero-photo-wrapper {
+  position: relative;
+  width: 260px;
+  flex-shrink: 0;
+}
+
+.hero-photo-border {
+  position: absolute;
+  inset: 12px -12px -12px 12px;
+  border-radius: 24px;
+  border: 2px solid #2563eb;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.hero-photo {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  border-radius: 24px;
+  padding: 16px;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-photo img {
+  border-radius: 16px;
+}
+
+.hero-content {
+  flex: 1;
+  min-width: 260px;
+}
+
+.hero-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: #9ca3af;
+  margin-bottom: 12px;
+}
+
+.hero-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.hero-title span {
+  color: #2563eb;
+}
+
+.hero-text {
+  max-width: 520px;
+  font-size: 14px;
+  color: #4b5563;
+  margin-bottom: 20px;
+}
+
+.hero-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 11px;
+}
+
+.tag {
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  color: #4b5563;
+}
+
+.tag-blue {
+  background-color: #e0ecff;
+  color: #1d4ed8;
+  border-color: transparent;
+}
+
+.section {
+  padding: 32px 0;
+}
+
+.section-header {
+  margin-bottom: 20px;
+}
+
+.section-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: #9ca3af;
+  margin-bottom: 4px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 18px 18px 20px;
+  flex: 1;
+  min-width: 220px;
+  border: 1px solid #e5e7eb;
+}
+
+.card-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background-color: #eff6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.card-text {
+  font-size: 13px;
+  color: #4b5563;
+}
+
+.skills {
+  text-align: center;
+}
+
+.skills-chips {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.chip {
+  background-color: #ffffff;
+  border-radius: 999px;
+  padding: 10px 18px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid #e5e7eb;
+  display: inline-flex;
+  gap: 6px;
+}
+
+.chip-main {
+  color: #f97316;
+}
+
+.chip-blue {
+  color: #2563eb;
+}
+
+.chip-yellow {
+  color: #facc15;
+}
+
+.chip-purple {
+  color: #8b5cf6;
+}
+
+.chip-green {
+  color: #16a34a;
+}
+
+.chip-red {
+  color: #ef4444;
+}
+
+.chip-sub {
+  font-weight: 400;
+  color: #6b7280;
+}
+
+.contact-section {
+  padding: 40px 0 32px;
+}
+
+.contact-card {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  border-radius: 20px;
+  padding: 24px 24px 26px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+  color: #ffffff;
+}
+
+.contact-left {
+  flex: 1;
+  min-width: 220px;
+}
+
+.contact-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.contact-text {
+  font-size: 13px;
+  color: #e5e7eb;
+  margin-bottom: 12px;
+}
+
+.contact-info {
+  font-size: 13px;
+  list-style: none;
+  color: #e5e7eb;
+}
+
+.contact-info li {
+  margin-bottom: 4px;
+}
+
+.contact-info span {
+  margin-right: 6px;
+}
+
+.contact-right {
+  min-width: 160px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-primary {
+  background-color: #ffffff;
+  color: #1d4ed8;
+  border-radius: 999px;
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-primary:hover {
+  background-color: #e5e7eb;
+}
+
+footer {
+  padding: 18px 0 24px;
+  border-top: 1px solid #e5e7eb;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-links a {
+  color: #6b7280;
+}
+
+.footer-links a:hover {
+  color: #111827;
+}
+
+@media (max-width: 768px) {
+  .header-inner {
+    gap: 8px;
+  }
+
+  nav ul {
+    display: none; 
+  }
+
+  .hero-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero-photo-wrapper {
+    width: 220px;
+  }
+
+  .contact-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-right {
+    justify-content: flex-start;
+  }
+}
