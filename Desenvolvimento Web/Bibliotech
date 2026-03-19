@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIBLIOTECH</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho-conteudo">
+           
+                <img src="assets/logo.png" class="logo">
+          
+            <nav class="menu">
+                <a href="#">Books</a>
+                <a href="#">Digital Collection</a>
+                <a href="#">Events</a>
+                <a href="#">Services</a>
+                <a href="#">About Us</a>
+            </nav>
+            <a href="#" class="botao-login">Member Login</a>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="banner-overlay">
+            <h2>Your gateway to <span class="destaque">knowledge</span> and discovery.</h2>
+            <p>Access millions of books, journals, and digital media from anywhere.</p>
+            <div class="busca">
+                <input type="text" placeholder="Search the catalog, authors, or ISBN...">
+                <button class="botao-explorar">Explore Collection</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao novidades">
+        <div class="secao-titulo">
+            <h3>New Arrivals</h3>
+            <a href="#" class="link-ver-tudo">View All &gt;</a>
+        </div>
+        <div class="cards-livros">
+            <div class="card-livro">
+                <div class="capa-livro" style="background: linear-gradient(135deg, #f5f5f0 0%, #e8e8e0 100%);">
+                    <img src="assets/livro1.png" class="livro1">
+                </div>
+                <h4>The Midnight Library</h4>
+                <p class="autor">Matt Haig</p>
+                <button class="botao-emprestar">Borrow</button>
+            </div>
+            <div class="card-livro">
+                <div class="capa-livro" style="background: linear-gradient(135deg, #2d5a3d 0%, #1a3520 100%);">
+                    <img src="assets/livro2.avif" class="livro2">
+                </div>
+                <h4>Circe</h4>
+                <p class="autor">Madeline Miller</p>
+                <button class="botao-emprestar">Borrow</button>
+            </div>
+            <div class="card-livro">
+                <div class="capa-livro" style="background: linear-gradient(135deg, #87ceeb 0%, #b8e0f0 100%);">
+                    <img src="assets/livro3.jpg" class="livro3">
+                </div>
+                <h4>Cloud Cuckoo Land</h4>
+                <p class="autor">Anthony Doerr</p>
+                <button class="botao-emprestar">Borrow</button>
+            </div>
+            <div class="card-livro">
+                <div class="capa-livro" style="background: linear-gradient(135deg, #2c5f6f 0%, #1e3d47 100%);">
+                    <img src="assets/livro4.avif" class="livro4">
+                </div>
+                <h4>The Seven Husbands of Evelyn Hugo</h4>
+                <p class="autor">Taylor Jenkins Reid</p>
+                <button class="botao-emprestar">Borrow</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao eventos">
+        <p class="subtitulo">STAY CONNECTED</p>
+        <div class="secao-titulo">
+            <h3>Upcoming Events</h3>
+            <a href="#" class="link-ver-tudo">See Full Calendar</a>
+        </div>
+        <div class="cards-eventos">
+            <div class="card-evento">
+                <div class="data-evento">
+                    <span class="dia">14</span>
+                    <span class="mes">OCT</span>
+                </div>
+                <h4>Afternoon Book Club</h4>
+                <p>Discussing "Tomorrow, and Tomorrow, and Tomorrow" in the Garden Room.</p>
+                <a href="#" class="link-registrar">Register +</a>
+            </div>
+            <div class="card-evento">
+                <div class="data-evento">
+                    <span class="dia">21</span>
+                    <span class="mes">OCT</span>
+                </div>
+                <h4>Tech Workshop</h4>
+                <p>Learn digital literacy basics. Bring your device and questions.</p>
+                <a href="#" class="link-registrar">Register +</a>
+            </div>
+            <div class="card-evento">
+                <div class="data-evento">
+                    <span class="dia">28</span>
+                    <span class="mes">OCT</span>
+                </div>
+                <h4>Storytelling for Kids</h4>
+                <p>Weekly story time with interactive activities for ages 3-8.</p>
+                <a href="#" class="link-registrar">Register +</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao servicos">
+        <h3>How We Can Help</h3>
+        <p class="intro-servicos">Beyond books, Bibliotech provides modern tools and support to empower your learning journey</p>
+        <div class="cards-servicos">
+            <div class="card-servico">
+                <div class="icone-servico">💻</div>
+                <h4>Digital Rentals</h4>
+                <p>Borrow ebooks, audiobooks, and streaming media directly to your devices via the Libby app</p>
+            </div>
+            <div class="card-servico">
+                <div class="icone-servico">📚</div>
+                <h4>Study Rooms</h4>
+                <p>Reserve private study rooms for group projects or focused solo sessions</p>
+            </div>
+            <div class="card-servico">
+                <div class="icone-servico">🔍</div>
+                <h4>Research Help</h4>
+                <p>Get personalized assistance from our librarians for academic and professional research</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="rodape">
+        <div class="rodape-colunas">
+            <div class="coluna">
+                <div class="logo logo-rodape">
+                    <span class="icone-livro">📖</span>
+                    <h5>BIBLIOTECH</h5>
+                </div>
+                <p>Modernizing the way we access knowledge. Join our community and explore the boundless worlds within pages.</p>
+            </div>
+            <div class="coluna">
+                <h5>Contact Us</h5>
+                <p>123 Library Way, Knowledge City</p>
+                <p>(555) 123-4567</p>
+                <p>hello@bibliotech.lib</p>
+            </div>
+            <div class="coluna">
+                <h5>Hours of Operation</h5>
+                <p>Mon - Fri: 8am - 9pm</p>
+                <p>Saturday: 10am - 6pm</p>
+                <p>Sunday: 12pm - 5pm</p>
+            </div>
+            <div class="coluna">
+                <h5>Quick Links</h5>
+                <p><a href="#">Renew/Books</a></p>
+                <p><a href="#">Donate</a></p>
+                <p><a href="#">Volunteering</a></p>
+                <p><a href="#">Privacy Policy</a></p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2024 Bibliotech Public Library. All rights reserved. Built for the community.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Serif 4', Georgia, serif;
+    color: #333;
+    line-height: 1.5;
+}
+
+
+.cabecalho {
+    background-color: #f5f0e8;
+    padding: 1rem 2rem;
+}
+
+.cabecalho-conteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+}
+
+.icone-livro {
+    font-size: 1.5rem;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2c1810;
+}
+
+.menu {
+    display: flex;
+    gap: 2rem;
+}
+
+.menu a {
+    color: #2c1810;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    color: #c85a28;
+}
+
+.botao-login {
+    background-color: #c85a28;
+    color: white !important;
+    padding: 0.6rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.botao-login:hover {
+    background-color: #a8481f;
+}
+
+.banner {
+    position: relative;
+    background-image: url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1920');
+    background-size: cover;
+    background-position: center;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.banner-overlay h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 1rem;
+    max-width: 700px;
+}
+
+.destaque {
+    color: #e87d4a;
+}
+
+.banner-overlay p {
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.busca {
+    display: flex;
+    gap: 0;
+    max-width: 600px;
+    width: 100%;
+}
+
+.busca input {
+    flex: 1;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 6px 0 0 6px;
+    font-size: 1rem;
+}
+
+.botao-explorar {
+    background-color: #c85a28;
+    color: white;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 0 6px 6px 0;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.botao-explorar:hover {
+    background-color: #a8481f;
+}
+
+.secao {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    background-color: #faf8f5;
+}
+
+.secao-titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.secao-titulo h3 {
+    font-size: 2rem;
+    color: #2c1810;
+}
+
+.link-ver-tudo {
+    color: #2c1810;
+    text-decoration: none;
+}
+
+.link-ver-tudo:hover {
+    color: #c85a28;
+}
+
+.cards-livros {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-livro {
+    background-color: white;
+    width: 22%;
+    min-width: 220px;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.capa-livro {
+    height: 220px;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.card-livro h4 {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+    color: #2c1810;
+}
+
+.autor {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.botao-emprestar {
+    width: 100%;
+    padding: 0.6rem;
+    background-color: #f0e6dc;
+    color: #2c1810;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.botao-emprestar:hover {
+    background-color: #e8d9cb;
+}
+
+.eventos .subtitulo {
+    color: #8a7a6a;
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+}
+
+.cards-eventos {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.card-evento {
+    background-color: white;
+    flex: 1;
+    min-width: 280px;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.data-evento {
+    background-color: #c85a28;
+    color: white;
+    padding: 0.8rem 1rem;
+    border-radius: 6px;
+    width: fit-content;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.dia {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.mes {
+    font-size: 0.85rem;
+}
+
+.icone-calendario {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    font-size: 0.9rem;
+}
+
+.card-evento h4 {
+    margin-bottom: 0.5rem;
+    color: #2c1810;
+}
+
+.card-evento p {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.link-registrar {
+    color: #2c1810;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link-registrar:hover {
+    color: #c85a28;
+}
+
+/* ----- SERVIÇOS ----- */
+.servicos {
+    text-align: center;
+}
+
+.servicos h3 {
+    font-size: 2rem;
+    color: #2c1810;
+    margin-bottom: 0.5rem;
+}
+
+.intro-servicos {
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 3rem;
+}
+
+.cards-servicos {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-servico {
+    background-color: white;
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.icone-servico {
+    width: 80px;
+    height: 80px;
+    background-color: #c85a28;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 0 auto 1rem;
+}
+
+.card-servico h4 {
+    margin-bottom: 0.5rem;
+    color: #2c1810;
+}
+
+.card-servico p {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.rodape {
+    background-color: #2c1810;
+    color: #e8e4df;
+    padding: 4rem 2rem 2rem;
+}
+
+.rodape-colunas {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.coluna {
+    flex: 1;
+    min-width: 200px;
+}
+
+.logo-rodape h5 {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.rodape h5 {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.rodape p,
+.rodape a {
+    color: #c9c4bd;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
+
+.rodape a {
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    color: #e87d4a;
+}
+
+.redes-sociais {
+    margin-top: 1rem;
+}
+
+.redes-sociais a {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.copyright {
+    max-width: 1200px;
+    margin: 3rem auto 0;
+    padding-top: 2rem;
+    border-top: 1px solid #4a3f35;
+    text-align: center;
+}
+
+.copyright p {
+    color: #9a948b;
+    font-size: 0.9rem;
+}
+
+.livro1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.livro2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.livro3{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.livro4{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
